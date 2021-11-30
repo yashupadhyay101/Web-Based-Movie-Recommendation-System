@@ -1,0 +1,47 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'app1/css/Stylesheetco.css' %}" type="text/css" />
+
+    <title>Collaborative Filtering</title>
+  </head>
+  <body>
+  <!--  <div class="jumbotron my-2">
+            <h1 class="display-4" align="center">COLLABORITIVE FILTERING</h1>
+            <p class="lead">In the newer, narrower sense, collaborative filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating).</p>
+            <hr class="my-4">
+            <p>For more information about collaborative filtering, click the button below.</p>
+            <p class="lead">
+              <a class="btn btn-info btn-link" href="https://en.wikipedia.org/wiki/Collaborative_filtering" role="button">Learn more</a>
+            </p>
+    </div> -->
+    <div class="jumbotron card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+      <div class="text-white text-center py-5 px-4">
+        <div>
+          <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>COLLABORITIVE FILTERING</strong></h2>
+          <p class="mx-5 mb-5">In the newer, narrower sense, collaborative filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating).
+          </p>
+          <a class="btn btn-outline-white btn-md" href="https://en.wikipedia.org/wiki/Collaborative_filtering" role="button"><i class="fas fa-clone left"></i> For More Info</a>
+        </div>
+      </div>
+    </div>
+    <form action ="showcollaborative/" method="get">
+      <h3><span class="badge badge-primary mx-2">Movie Title:</span></h3>
+      <input type="text" id="mname" name="mname"><br>
+      <button type ="submit" class="btn btn-primary mx-2">Submit</button>
+              
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

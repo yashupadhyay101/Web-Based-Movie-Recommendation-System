@@ -1,0 +1,25 @@
+body {
+    background: url("../images/imdb-big.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.box{
+    background : whitesmoke;
+    padding: 100px;
+    margin: 100px
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+} 
+
+a.specialeffects:hover {
+  color: black ;
+  background-color: #ff0 ;
+} 
+
